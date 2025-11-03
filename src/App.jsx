@@ -1,11 +1,16 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-
+// import signup from "../componet/signup"
+// import Navbar from "../componet/layout/Navbar"
+// import Provider from "../componet/layout/Provider"
+// import Singleproduct from "../componet/Singleproduct"
 import Dashboardlayout from "./pages/Dashboard/Dashboardlayout"
+// import Landing from "./pages/Landing"
 import Publicpage from "../componet/layout/publicpage"
 import Adminlayout from "./pages/admin/Adminlayout"
 import AuthProvider from "../context/authcontext"
 import ProductProvider from "../context/productcontext"
+// import ProtectedRoute from "../componet/layout/ProtectedRoute"git
 import Isadminprotected from "../componet/layout/Isadminprotected"
 import { Toaster } from "sonner"
 import ForgotPassword from "../componet/layout/Forgetpassword"
