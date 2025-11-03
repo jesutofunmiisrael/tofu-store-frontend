@@ -1,0 +1,20 @@
+.head {
+    background-color: green;
+    display: flex;
+    justify-content: space-between; /* better than huge gap */
+    align-items: center;
+    padding: 0 20px; /* some horizontal padding */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px; /* adjust as needed */
+    z-index: 100; /* stay on top of content */
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
