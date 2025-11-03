@@ -4,24 +4,37 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 // import Navbar from "../componet/layout/Navbar"
 // import Provider from "../componet/layout/Provider"
 // import Singleproduct from "../componet/Singleproduct"
-import Dashboardlayout from "./pages/Dashboard/Dashboardlayout"
-// import Landing from "./pages/Landing"
-// import Publicpage from "../componet/layout/publicpage"
-import Publicpage from "../componet/layout/Publicpage"
+// import Dashboardlayout from "./pages/Dashboard/Dashboardlayout"
+// import Dashboardlayout  from "./pages/Dashboard/Dashboardlayout"
+// // import Landing from "./pages/Landing"
+// // import Publicpage from "../componet/layout/publicpage"
+// import Publicpage from "../componet/layout/Publicpage"
 
-// import Publicpage from "../components/layout/publicpage";
+// // import Publicpage from "../components/layout/publicpage";
 
 
 
 
-import Adminlayout from "./pages/admin/Adminlayout"
-import AuthProvider from "../context/authcontext"
-import ProductProvider from "../context/productcontext"
-// import ProtectedRoute from "../componet/layout/ProtectedRoute"
-import Isadminprotected from "../componet/layout/Isadminprotected"
-import { Toaster } from "sonner"
-import ForgotPassword from "../componet/layout/Forgetpassword"
-import VerifyOtp from "../componet/layout/VerifyOtp"
+// import Adminlayout from "./pages/admin/Adminlayout"
+// import AuthProvider from "../context/authcontext"
+// import ProductProvider from "../context/productcontext"
+// // import ProtectedRoute from "../componet/layout/ProtectedRoute"
+// import Isadminprotected from "../componet/layout/Isadminprotected"
+// import { Toaster } from "sonner"
+// import ForgotPassword from "../componet/layout/Forgetpassword"
+// import VerifyOtp from "../componet/layout/VerifyOtp"
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Dashboardlayout from "./pages/Dashboard/Dashboardlayout";
+import Adminlayout from "./pages/admin/Adminlayout";
+import AuthProvider from "./context/authcontext";
+import ProductProvider from "./context/productcontext";
+import Isadminprotected from "./components/layout/Isadminprotected";
+import ForgotPassword from "./components/layout/Forgetpassword";
+import VerifyOtp from "./components/layout/VerifyOtp";
+import Publicpage from "./components/layout/Publicpage";
+import { Toaster } from "sonner";
+
 
 function App() {
 
