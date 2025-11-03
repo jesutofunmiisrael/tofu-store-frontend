@@ -7,9 +7,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Dashboardlayout from "./pages/Dashboard/Dashboardlayout"
 // import Landing from "./pages/Landing"
 // import Publicpage from "../componet/layout/publicpage"
-// import Publicpage from "../componet/layout/Publicpage"
+import Publicpage from "../componet/layout/Publicpage"
 
-import Publicpage from "../components/layout/publicpage";
+// import Publicpage from "../components/layout/publicpage";
 
 
 
