@@ -10,7 +10,7 @@ import Publicpage from "../componet/layout/publicpage"
 import Adminlayout from "./pages/admin/Adminlayout"
 import AuthProvider from "../context/authcontext"
 import ProductProvider from "../context/productcontext"
-// import ProtectedRoute from "../componet/layout/ProtectedRoute"git
+// import ProtectedRoute from "../componet/layout/ProtectedRoute"
 import Isadminprotected from "../componet/layout/Isadminprotected"
 import { Toaster } from "sonner"
 import ForgotPassword from "../componet/layout/Forgetpassword"
