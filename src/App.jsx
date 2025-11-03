@@ -6,7 +6,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 // import Singleproduct from "../componet/Singleproduct"
 import Dashboardlayout from "./pages/Dashboard/Dashboardlayout"
 // import Landing from "./pages/Landing"
-import Publicpage from "../componet/layout/publicpage"
+// import Publicpage from "../componet/layout/publicpage"
+// import Publicpage from "../componet/layout/Publicpage"
+
+import Publicpage from "../components/layout/publicpage";
+
+
+
+
 import Adminlayout from "./pages/admin/Adminlayout"
 import AuthProvider from "../context/authcontext"
 import ProductProvider from "../context/productcontext"
